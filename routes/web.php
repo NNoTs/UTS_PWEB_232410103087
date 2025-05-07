@@ -1,0 +1,9 @@
+<?php
+
+use App\Http\Controllers\PageController;
+
+Route::get('/login', [PageController::class, 'login']);
+Route::get('/dashboard', [PageController::class, 'dashboard']);
+Route::get('/pengelolaan', [PageController::class, 'pengelolaan']);
+Route::get('/profile', [PageController::class, 'profile']);
+
